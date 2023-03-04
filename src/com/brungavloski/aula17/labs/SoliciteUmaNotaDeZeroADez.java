@@ -7,27 +7,21 @@ public class SoliciteUmaNotaDeZeroADez {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		
-		boolean notaValiada = false;
+		boolean notaValida = false;
 		
 		do {
-			System.out.println("Digite uma nota de entre 0 e 10: ");
-			int nota = scan.nextInt();
+			System.out.println("Digite a nota: ");
+			double nota = scan.nextDouble();
 			
 			if (nota >= 0 && nota <= 10) {
-				notaValiada = true;
-				System.out.println("vc digitou a nota correta: " + nota);
+				notaValida = true;
+				System.out.println("Nota ok, dentro do range;");
 			} else {
-				notaValiada = false;
-				System.out.println("vc digitou a nota invalida");
+				System.out.println("Nota fora do range;");
 			}
-		} while (!notaValiada);
+			
+		} while (!notaValida);
 	
-		
-		
-		
-		
-		
 	}
 
 }
