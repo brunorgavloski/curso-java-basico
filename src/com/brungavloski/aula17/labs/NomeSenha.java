@@ -15,10 +15,10 @@ public class NomeSenha {
 		do {
 			
 			System.out.println("Digite seu nome: ");
-			String nomeUser = scan.next();
+			nomeUser = scan.next();
 			
 			System.out.println("Digite sua senha: ");
-			String senhaDigitada = scan.next();
+			 senhaDigitada = scan.next();
 			
 			if (senhaDigitada.equalsIgnoreCase(nomeUser)) {
 				
