@@ -4,7 +4,7 @@ public class FibonacciMenorQueQuinhentos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println("Fibonacci até 500");
 		boolean teste = false;
 		int primeiro = 1;
 		int segundo =1;
