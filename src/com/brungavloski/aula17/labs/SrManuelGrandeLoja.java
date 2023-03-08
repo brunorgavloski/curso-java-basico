@@ -7,7 +7,7 @@ public class SrManuelGrandeLoja {
 		
 		double preco = 0;
 		for (int i = 1; i <= 50; i++) {
-			preco = preco + 1.99;
+			preco = i * 1.99;
 			System.out.println(i + " - R$ " + preco);
 			
 		}
