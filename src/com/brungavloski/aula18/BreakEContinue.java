@@ -13,10 +13,20 @@ public class BreakEContinue {
 		System.out.println("Entre com um número: ");
 		int max = scan.nextInt();
 		
+		/*
 		for (int i  = num; i <= max; i++) {
 			if (i % 7 == 0) {
 				System.out.println("o valor de i " + i);
+				break;
 			}
+		}
+		*/
+		
+		for (int i  = num; i <= max; i++) {
+			if (i % 7 == 0) {
+				continue;
+			}
+			System.out.println("o valor de i " + i);
 		}
 	}
 
