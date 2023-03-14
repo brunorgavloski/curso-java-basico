@@ -33,14 +33,8 @@ public class Exerc01 {
 			
 			System.out.print(b[i] +" ");
 			
-		}
-		
-
-
-			
-		}
-		
-		
+			}					
+		}		
 	}
 
 
